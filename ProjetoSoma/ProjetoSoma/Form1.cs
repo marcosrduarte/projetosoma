@@ -23,9 +23,13 @@ namespace ProjetoSoma
 
         private void btnSomar_Click(object sender, EventArgs e)
         {
+
             Controle controle = new Controle();
-            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, 
-                txbSegundoNumero.Text, "+");
+            controle.Num1 = txbPrimeiroNumero.Text;
+            controle.Num2 = txbSegundoNumero.Text;
+            controle.Op = "+";
+            controle.Calcular();
+            lblResultado.Text = controle.Resposta;
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)

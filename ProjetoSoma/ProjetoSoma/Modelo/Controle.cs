@@ -8,15 +8,18 @@ namespace ProjetoSoma.Modelo
     public class Controle
     {
 
+        private String num1;
+        private String num2;
+        private String op;
+        private String resposta;
+
         public Controle()
         {
         }
 
-        public String Calcular(String num1, 
-            String num2,String op)
+        public void Calcular()
         {
             Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            String resposta = "";
             try
             {
                 n1 = Convert.ToDouble(num1);
@@ -41,7 +44,35 @@ namespace ProjetoSoma.Modelo
             {
                 resposta = "Escreva um número correto";
             }
-            return resposta;
+        }
+        public String Resposta
+        {
+            get { return resposta; }
+
+        }
+
+
+        public String Op
+        {
+
+            set { op = value; }
+        }
+
+
+        public String Num2
+        {
+
+            set { num2 = value; }
+        }
+
+
+        public String Num1
+        {
+
+
+            set { num1 = value; }
         }
     }
+
 }
+
