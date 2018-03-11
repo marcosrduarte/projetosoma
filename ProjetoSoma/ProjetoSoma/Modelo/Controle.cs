@@ -24,6 +24,7 @@ namespace ProjetoSoma.Modelo
             {
                 n1 = Convert.ToDouble(num1);
                 n2 = Convert.ToDouble(num2);
+
                 if (op.Equals("+"))
                     resultado = n1 + n2;
                 if (op.Equals("-"))
@@ -42,34 +43,23 @@ namespace ProjetoSoma.Modelo
             }
             catch (FormatException e)
             {
-                resposta = "Escreva um número correto";
+                resposta = "Este caracter não é um número!";
             }
         }
         public String Resposta
         {
             get { return resposta; }
-
         }
-
-
         public String Op
         {
-
             set { op = value; }
         }
-
-
         public String Num2
         {
-
             set { num2 = value; }
         }
-
-
         public String Num1
         {
-
-
             set { num1 = value; }
         }
     }

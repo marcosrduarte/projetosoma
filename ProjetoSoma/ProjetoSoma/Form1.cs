@@ -23,7 +23,6 @@ namespace ProjetoSoma
 
         private void btnSomar_Click(object sender, EventArgs e)
         {
-
             Controle controle = new Controle();
             controle.Num1 = txbPrimeiroNumero.Text;
             controle.Num2 = txbSegundoNumero.Text;
@@ -34,17 +33,32 @@ namespace ProjetoSoma
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-            
+            Controle controle = new Controle();
+            controle.Num1 = txbPrimeiroNumero.Text;
+            controle.Num2 = txbSegundoNumero.Text;
+            controle.Op = "-";
+            controle.Calcular();
+            lblResultado.Text = controle.Resposta;    
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            
+            Controle controle = new Controle();
+            controle.Num1 = txbPrimeiroNumero.Text;
+            controle.Num2 = txbSegundoNumero.Text;
+            controle.Op = "*";
+            controle.Calcular();
+            lblResultado.Text = controle.Resposta;    
         }
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
-            
+            Controle controle = new Controle();
+            controle.Num1 = txbPrimeiroNumero.Text;
+            controle.Num2 = txbSegundoNumero.Text;
+            controle.Op = "/";
+            controle.Calcular();
+            lblResultado.Text = controle.Resposta;    
         }
     }
 }

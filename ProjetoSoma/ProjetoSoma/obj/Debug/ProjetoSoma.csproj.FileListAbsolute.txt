@@ -16,3 +16,13 @@ C:\Users\d3812g9\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csprojRes
 C:\Users\d3812g9\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.frmPrincipal.resources
 C:\Users\d3812g9\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.Properties.Resources.resources
 C:\Users\d3812g9\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.GenerateResource.Cache
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe.config
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.pdb
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csprojResolveAssemblyReference.cache
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.frmPrincipal.resources
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.Properties.Resources.resources
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.GenerateResource.Cache
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.CoreCompileInputs.cache
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.exe
+C:\Users\mari\Desktop\ProjetoSoma-master\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.pdb
