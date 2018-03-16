@@ -7,62 +7,36 @@ namespace ProjetoSoma.Modelo
 {
     public class Controle
     {
+        public String num1;
+        public String num2;
+        public String op;
+        public String mensagem;
+        public String resposta;
 
-        private String num1;
-        private String num2;
-        private String op;
-        private String resposta;
-
-        public Controle()
+        public void Executar()
         {
-        }
-
-        public void Calcular()
-        {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            try
+            this.mensagem = "";
+            Validacao validacao = new Validacao();
+            validacao.num1 = this.num1;
+            validacao.num2 = this.num2;
+            validacao.Validar();
+            if (validacao.mensagem.Equals(""))
             {
-                n1 = Convert.ToDouble(num1);
-                n2 = Convert.ToDouble(num2);
+                Calculos calculos = new Calculos();
+                calculos.n1 = validacao.n1;
+                calculos.n2 = validacao.n2;
+                calculos.op = this.op;
+                calculos.Calcular();
+                this.resposta = calculos.resposta;
 
-                if (op.Equals("+"))
-                    resultado = n1 + n2;
-                if (op.Equals("-"))
-                    resultado = n1 - n2;
-                if (op.Equals("*"))
-                    resultado = n1 * n2;
-                resposta = resultado.ToString();
-                if (op.Equals("/"))
-                    if (n2 == 0)
-                        resposta = "Divisão por 0";
-                    else
-                    {
-                        resultado = n1 / n2;
-                        resposta = resultado.ToString();
-                    }
             }
-            catch (FormatException e)
+            else
             {
-                resposta = "Este caracter não é um número!";
+                this.mensagem = validacao.mensagem;
             }
-        }
-        public String Resposta
-        {
-            get { return resposta; }
-        }
-        public String Op
-        {
-            set { op = value; }
-        }
-        public String Num2
-        {
-            set { num2 = value; }
-        }
-        public String Num1
-        {
-            set { num1 = value; }
         }
     }
+
 
 }
 
